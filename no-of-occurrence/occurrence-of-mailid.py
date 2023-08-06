@@ -1,8 +1,8 @@
-f = open('mbox-short.txt','r')
+file = open('mbox-short.txt','r')
 
 
 count = {}
-for line in f:
+for line in file:
     if line.startswith('From '):
         words = line.split()
         if len(words) >= 2:
@@ -11,7 +11,7 @@ for line in f:
 print(count)
 
 
-f.close()
+file.close()
 
 
 
