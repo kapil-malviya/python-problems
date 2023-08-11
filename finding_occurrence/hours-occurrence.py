@@ -23,7 +23,6 @@ print(count)
 
 
 print("\n", sorted(count), "\n")
-
 for hrs, cnt in sorted(count.items()) :
     print(hrs, cnt)
 
