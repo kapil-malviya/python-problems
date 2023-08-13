@@ -56,5 +56,3 @@ that you'd like to share, please open a pull request. And Feel free to experimen
 and learn from the provided solution.
 
 ##
-
-Sharpen your Python programming skills by tackling real-world problems!
